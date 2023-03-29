@@ -1,0 +1,31 @@
+  .Wrapper{
+    max-width: 1440px;
+
+    border: solid rgb(75, 187, 65) 2px; 
+    /* background-color: rgb(238, 238, 190); */
+    /* height: 100vh; */
+ }
+ 
+ @media screen and (max-width:900px){
+   .Wrapper{ margin: auto;
+     display:block ;}
+ }
+ 
+  @media screen and (max-width:375px){
+ .Wrapper{ 
+  margin: auto;
+  display:none ;
+     font-size: 16px;}}
+    .nav_link{
+        font-size: 20px;
+        font-weight: normal;
+        color: #212121;
+    }
+    .stander_wrp{
+      max-width: 1216px;
+      padding: 0px 16px;
+      margin: auto;
+      /* border: solid rgb(245, 215, 245) 3px; */
+
+      /* background-color: rgb(37, 199, 51); */
+    }
