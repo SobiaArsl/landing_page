@@ -4,16 +4,16 @@ import Wrapper from "./Wrapper";
 export default function Page1() {
   return (
     <Wrapper>
-    {/* <div className="wrapper"> */}
+      {/* <div className="wrapper"> */}
       {
         <div className="page1">
           <div className="content">
             <h1 className="head">
-            WiFi illimité à l’extérieur,<br/>à prix cassé !
+              WiFi illimité à l’extérieur,<br />à prix cassé !
             </h1>
             <p className="paragraph">
               Depuis 2014, note mission around serious concern faclement aux
-              reseaux 
+              reseaux
               wifis proche de vous grade a une application complete et
               novatrice.
               <div className="pg1img">
@@ -21,11 +21,11 @@ export default function Page1() {
                 <img src="./imagefld/mb2.png" />
               </div>
               <div className="dn1">
-                Nouvelle version 
+                Nouvelle version
                 bientit disponible
-               <div> <img src="./svg/arrow.svg" /></div>
+                <div> <img src="./svg/arrow.svg" /></div>
               </div>
-             
+
             </p>
           </div>
           <div className=" img_page_1">
@@ -36,10 +36,10 @@ export default function Page1() {
             <img src="./svg/nav_img_2.svg" />
 
           </div>
-          
+
         </div>
       }
-    {/* </div> */}
+      {/* </div> */}
     </Wrapper>
   );
 }

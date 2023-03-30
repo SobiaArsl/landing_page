@@ -6,14 +6,14 @@ import Wrapper from "./Wrapper";
 export default function Navbar() {
   return (
     // <div>
-      <Wrapper>
+    <Wrapper>
 
       <div className="navimg">
         <div className="nav_2">
           <p>
             <img src="./svg/nav.svg" />{" "}
           </p>
-          <div className="st">
+          <div className="st nav_links">
             {/* <Link title="L appllication" />
           <Link title="Weeze Map" />
           <Link title="Nos Tarifs" /> */}
@@ -25,9 +25,13 @@ export default function Navbar() {
         </div>
 
         <button className="nv_btn"> Me prenir lorsque sera disponible </button>
+        <button className="menuBtn" >
+          <img src='/svg/menu.svg' className="mobile_btn" />
+        </button>
+
       </div>
-     
-    {/* </div> */}
+
+      {/* </div> */}
     </Wrapper>
     // </div>
   );
