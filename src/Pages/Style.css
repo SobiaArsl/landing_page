@@ -6,16 +6,23 @@
     /* height: 100vh; */
  }
  
- @media screen and (max-width:900px){
+ /* @media screen and (max-width:600px){
    .Wrapper{ margin: auto;
      display:block ;}
- }
+ } */
  
-  @media screen and (max-width:375px){
+  @media screen and (max-width:460px){
  .Wrapper{ 
-  margin: auto;
-  display:none ;
-     font-size: 16px;}}
+  /* margin: auto; */
+  /* display:none ; */
+     /* font-size: 16px; */
+    }
+     .stander_wrp{
+      max-width: 375px;
+      margin: auto;
+      display: block;
+      padding: 16px;
+     }}
     .nav_link{
         font-size: 20px;
         font-weight: normal;

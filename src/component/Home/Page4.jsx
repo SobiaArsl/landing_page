@@ -9,7 +9,8 @@ export default function Page4(){
         <Wrapper>
 
 <div className="page4">
-             <div className="imgpage4"> <img src=" ./imagefld/content.png" /></div>
+             <div className="imgpage4"> 
+             <img src=" ./imagefld/content.png" /></div>
               <div className="write4">
                 <p className="blue"> <b/>weezee Map</p>
               <h1 className ="headingp4">
@@ -28,7 +29,11 @@ export default function Page4(){
        <p className="paragraph_2" >
        +100k réseaux aux Antilles
        </p>
-        </div></div></div> 
+        </div>
+        <div className="  img_page_2"> 
+             <img src=" ./imagefld/content.png" /></div>
+             
+             </div></div> 
             {/* </div> */}
              </Wrapper>
     );

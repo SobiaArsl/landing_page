@@ -1,0 +1,115 @@
+.page2 {
+    margin: 0px 0px;
+    /* display: flex; */
+  }
+  @media screen and (max-width: 600px) {
+    .page2 {
+      margin: auto;
+      display: block;
+      overflow: hidden;
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 460px) {
+    .page2 {
+      border: 2px solid goldenrod;
+     width: 375px;
+     height: 1098px;
+     padding: 16px;
+      gap: 48px;
+      display: block;
+  
+    }
+    .head1{
+      /* border: 2px solid rgb(135, 202, 81); */
+      display: block;
+      margin-top: 50px;
+      /* margin: auto; */
+      font-size: 18px;
+    }
+    .head2{
+      /* border: 2px solid rgb(135, 202, 81); */
+      /* display: block; */
+      width: 343px;
+      height: 286px;
+      /* gap: 16px; */
+    }
+    .heilght{
+      height: 88px;
+    }
+    .paragraph{
+     height: 150px;
+    
+    }
+    .head_1_style{
+      width: 375px;
+      height: 272px;
+      
+    }
+    .fitmge {
+      width: 343px;
+     height: 116px;
+     margin-top: 60px;
+      /* display: block; */
+      /* justify-content: space-between; */
+      /* gap: 16px ;  */
+    }
+  
+    .imgpg2 img {
+      /* border: 2px solid rgb(135, 202, 81);
+      /* margin-top: 50px; */ 
+      display: none;
+       width: 375px;
+      height: 360px;
+      margin-top: 718px; 
+      overflow: hidden;
+    }
+     
+      .imgpg_2 img {
+   display: block;
+  margin-top: 350px;
+  background-color: rgb(185, 243, 243); 
+      }
+    }
+  
+  
+    .imgpg_2 img {
+      display: none;
+      margin: auto;
+          }
+  
+  .imgpg2 {
+    /* padding-left: 200px; */
+    /* margin-right: 0px; */
+    display: block;
+    /* overflow: hidden; */
+    border-radius: 12px;
+    /* gap: 40px; */
+  }
+  
+  .head1 {
+    /* display: flex; */
+    gap: 20px;
+    
+  }
+  .head2 {
+    height: 216px;
+    padding: 16px;
+    align-items: center;
+  }
+  .fitmge {
+    font-size: 20px;
+    gap: 30px;
+    line-height: 30px;
+    padding-left: 16px;
+    align-items: center;
+    color: #101828;
+  }
+  .head_1_style {
+    /* display: flex; */
+    width: 384px;
+    height: 60px;
+    gap: 8px;
+  }

@@ -1,12 +1,16 @@
 import React from "react";
 import Wrapper from "./Wrapper";
+// import Page2 from "./Page2.css";
 
 export default function page2() {
   return (
     <Wrapper>
+      {/* <Page2> */}
       <div className="page2">
         <div className="head2">
-          <h1 className="heilght">Connexion Automatique au WiFi autours de vous</h1>
+          <h1 className="heilght">
+            Connexion Automatique au WiFi autours de vous
+          </h1>
 
           <p className="paragraph">
             Grâce à notre réseau de partenaires, nous vous connectons
@@ -21,8 +25,8 @@ export default function page2() {
               <p>
                 Vérifiez quotidiennement le nombre de connexions qu'il vous
                 reste en 1 clic.
-              </p>
-            </div>
+              </p></div>
+            
             <div className="fitmge">
               <img src="./svg/icon.svg" />
               <p>
@@ -30,17 +34,19 @@ export default function page2() {
                 appareils.
               </p>
             </div>
-          </div>
+            </div>
+          
 
-          <div className="imgpg2">
+          <div className=" imgpg2">
             <img src="./imagefld/3screen.png" />
           </div>
           <div className=" img_page_2">
-            <img src="./svg/nav_img_2.svg" />
-
+            <img src="./svg/pg2pic.svg" />
           </div>
+          
         </div>
       </div>
+      {/* </Page2> */}
     </Wrapper>
   );
 }

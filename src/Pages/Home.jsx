@@ -21,6 +21,7 @@ export default function Home() {
       </div>
     < page1 />
     <page2/>
+    {/* <Page3/> */}
   
   </div>);
 }

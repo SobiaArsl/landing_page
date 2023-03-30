@@ -7,12 +7,12 @@ export default function Page5() {
     <Wrapper>
       <div className="page_5">
         <div className="p5writing">
-         <h1 className="headingp4">Des tarifs simples, <br />
-          sans mauvaise <br />
+         <h1 className="headingp4">Des tarifs simples, 
+          sans mauvaise 
           surprise</h1>
           <div className="paragraph_2">
-            Une tarification simple et transparente qui <br />
-            évolue selon vos besoins. Passez d’un forfait à <br />
+            Une tarification simple et transparente qui 
+            évolue selon vos besoins. Passez d’un forfait à 
             l’autre facilement depuis votre application.
           </div>
         </div>
