@@ -1,24 +1,26 @@
-import React from "react";
+import React from 'react';
 
-import Wrapper from "./Wrapper";
+import Wrapper from './Wrapper';
 
+export default function Navbar() {
+  return (
+    <Wrapper>
+      <div className='page3'>
+        <div>
+          <img
+            src='./imagefld/Content.jpg'
+            className='ing'
+            alt='images'
+            style={{
+              width: '100%',
+            }}
+          />
+        </div>
 
-export default function Navbar()
-    {
-        return( 
-        <Wrapper>
-             <div className="page3">
-
-<div className="ing">
-              <img src="./imagefld/Content.jpg"/></div>
-
-              <div className="page_img3 ">
-              <img src="./svg/pagea3.svg"/>
-            </div>
-            </div>
-           
-           
-
-          </Wrapper>
-          );
-          }
+        <div>
+          <img src='./svg/pagea3.svg' className='page_img3 ' />
+        </div>
+      </div>
+    </Wrapper>
+  );
+}
