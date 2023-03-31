@@ -6,7 +6,7 @@ export default function Footer() {
     <Wrapper>
     <div className='foot'>
 <div >
-    <img className='' src="./svg/footer.svg"/>
+    <img className='footr_img' src="./svg/footer.svg"/>
 </div>
 
 

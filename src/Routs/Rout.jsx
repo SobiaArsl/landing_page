@@ -17,13 +17,12 @@ export default function AppRouts() {
     <div>
       <Navbar />
       <Page1 />
-      <Page5/>
-
-      {/* <Page2/>
+     <Page2/>
       <Page3/>
+      <Page4/>
       <Page5/>
-      <Page6/> */}
-      {/* <Footer/> */}
+      <Page6/> 
+      <Footer/>
 
     </div>
   );

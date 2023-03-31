@@ -9,9 +9,9 @@ export default function Page6() {
           <div className="con_6">
           <h1 className="pg_6_hd">
             
-            Soyez le premier au <br />
+            Soyez le premier au 
             courant quand nous
-            <br />
+            
             lançons le service
           </h1>
           <div className="content_6_2">
@@ -26,7 +26,7 @@ export default function Page6() {
             </div>
 
           <div className="p6img">
-            <img src="./imagefld/man.png" />
+            <img  className="p6img"src="./imagefld/man.png" />
           </div>
         </div>
       </div>

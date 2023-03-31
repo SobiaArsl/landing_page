@@ -40,7 +40,7 @@ export default function page2() {
           <div className=" imgpg2">
             <img src="./imagefld/3screen.png" />
           </div>
-          <div className=" img_page_2">
+          <div className=" img_p2_2">
             <img src="./svg/pg2pic.svg" />
           </div>
           

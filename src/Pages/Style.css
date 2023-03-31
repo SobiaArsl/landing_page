@@ -1,21 +1,26 @@
   .Wrapper{
     max-width: 1440px;
 
-    border: solid rgb(75, 187, 65) 2px; 
-    /* background-color: rgb(238, 238, 190); */
-    /* height: 100vh; */
+    /* border: solid rgb(75, 187, 65) 2px;  */
+    background-color: rgb(238, 238, 190);
+    height: 100vh;
  }
  
- /* @media screen and (max-width:600px){
+ @media screen and (max-width:600px){
    .Wrapper{ margin: auto;
      display:block ;}
- } */
+     .stander_wrp{
+      max-width: 375px;
+      margin: auto;
+      display: block;
+      padding: 16px;}
+ }
  
   @media screen and (max-width:460px){
  .Wrapper{ 
-  /* margin: auto; */
-  /* display:none ; */
-     /* font-size: 16px; */
+  margin: auto;
+  display:none ;
+     font-size: 16px;
     }
      .stander_wrp{
       max-width: 375px;

@@ -12,7 +12,7 @@ export default function Navbar()
 <div className="ing">
               <img src="./imagefld/Content.jpg"/></div>
 
-              <div className=".page_img3 ">
+              <div className="page_img3 ">
               <img src="./svg/pagea3.svg"/>
             </div>
             </div>
